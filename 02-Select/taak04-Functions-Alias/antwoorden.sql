@@ -5,7 +5,7 @@ SELECT AVG(wage) FROM players
 -- Opdracht 3
 SELECT AVG(wage) FROM `players` WHERE club="FC Groningen"
 -- Opdracht 4
-
+SELECT AVG(wage) AS avg_wage FROM players WHERE nationality="Germany"
 -- Opdracht 5
 SELECT AVG(wage) AS avg_wage FROM players WHERE nationality="Netherlands"
 -- Opdracht 6 

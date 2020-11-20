@@ -7,7 +7,7 @@ SELECT name,club,age FROM `players` WHERE club="Liverpool" and age>"20"
 -- Opdracht 4
 SELECT name,nationality,club FROM `players` WHERE club="Ajax" and nationality="Netherlands"
 -- Opdracht 5
-
+SELECT name,age,nationality,club FROM `players` WHERE club="Ajax" and nationality="Netherlands"
 -- Opdracht 6 
 SELECT name,age FROM `players` WHERE club="AZ Alkmaar"
 -- Opdracht 7 
