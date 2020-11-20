@@ -1,0 +1,17 @@
+1. SELECT Max(wage) As hoogste_loon_speler_fc_utrecht FROM players WHERE club = "fc utrecht"
+
+2. SELECT AVG(wage) FROM players
+
+3. SELECT AVG(wage) FROM `players` WHERE club="FC Groningen"
+
+5. SELECT AVG(wage) AS avg_wage FROM players WHERE nationality="Netherlands"
+
+6. SELECT AVG(wage) AS avg_wage FROM players WHERE age<"20"
+
+7. SELECT AVG(wage) AS avg_wage FROM players WHERE age>"20"
+
+8. SELECT AVG(value) AS avg_value FROM players WHERE club="Chelsea"
+
+9. SELECT ROUND(AVG(age)) FROM players WHERE age
+
+10. SELECT ROUND(AVG(value)),club,wage FROM players WHERE club="Liverpool"

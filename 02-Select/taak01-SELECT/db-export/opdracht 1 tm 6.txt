@@ -1,0 +1,11 @@
+1. SELECT * FROM `jaar2016`
+
+2. SELECT * FROM `jaar2015`
+
+3. SELECT score,country FROM `jaar2016`
+
+4. SELECT region FROM `jaar2015`
+
+5. SELECT region,score FROM `jaar2015`
+
+6. SELECT score,rank FROM `jaar2016`

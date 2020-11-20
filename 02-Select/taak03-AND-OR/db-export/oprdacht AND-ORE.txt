@@ -1,0 +1,366 @@
+1. SELECT name,nationality FROM `players` WHERE club="Chelsea" and nationality="Spain"
+
+Cesc F bregas
+Diego Costa
+Azpilicueta
+Pedro
+Marcos Alonso
+Morata
+
+2. SELECT name,nationality,age FROM `players` WHERE nationality="Spain" and age="17" and wage=15000
+
+Brahim D az
+
+3. SELECT name,club,age FROM `players` WHERE club="Liverpool" and age>"20"
+
+M. Gruji
+J. Milner
+D. Sturridge
+S. Mignolet
+A. Lallana
+G. Wijnaldum
+J. Henderson
+A. Bogd n
+Coutinho
+N. Clyne
+D. Lovren
+D. Ings
+J. Matip
+A. Oxlade-Chamberlain
+Roberto Firmino
+J. Flanagan
+L. Karius
+Alberto Moreno
+D. Ward
+E. Can
+S. Man  
+M. Salah
+L. Markovi
+L. Jones
+A. Robertson
+C. Brannagan
+
+4. SELECT name,nationality,club FROM `players` WHERE club="Ajax" and nationality="Netherlands"
+
+K. Huntelaar
+S. de Jong
+N. Viergever
+B. van Leer
+J. Veltman
+M. Dijks
+D. Sinkgraven
+A. Nouri
+D. van de Beek
+N. Alblas
+F. de Jong
+D. Dankerlui
+C. Eiting
+M. de Ligt
+D. Zeefuik
+J. Kluivert
+
+6. SELECT name,age FROM `players` WHERE club="AZ Alkmaar"
+
+G. Coutinho
+34
+R. Vlaar
+32
+R. van Eijden
+29
+S. Wuytens
+27
+M. Vejinovi?
+27
+J. Svensson
+24
+F. Midtsj  
+23
+M. Bizot
+26
+R. van Rhijn
+26
+M. Seuntjens
+25
+J. van Overeem
+23
+A. Jahanbakhsh
+23
+F. Friday
+22
+I. Bel Hassani
+24
+W. Weghorst
+24
+N. Olij
+21
+D. Dos Santos
+20
+P. Hatzidiakos
+20
+J. Helmer
+19
+L. Garc a
+19
+T. Ouwejan
+21
+L. Opdam
+21
+G. Til
+19
+O. Wijndal
+17
+C. Stengs
+18
+T. Reijnders
+18
+T. Koopmeiners
+19
+
+7. SELECT name,age,club FROM `players` WHERE club="AZ Alkmaar"
+
+G. Coutinho
+34
+AZ Alkmaar
+R. Vlaar
+32
+AZ Alkmaar
+R. van Eijden
+29
+AZ Alkmaar
+S. Wuytens
+27
+AZ Alkmaar
+M. Vejinovi?
+27
+AZ Alkmaar
+J. Svensson
+24
+AZ Alkmaar
+F. Midtsj  
+23
+AZ Alkmaar
+M. Bizot
+26
+AZ Alkmaar
+R. van Rhijn
+26
+AZ Alkmaar
+M. Seuntjens
+25
+AZ Alkmaar
+J. van Overeem
+23
+AZ Alkmaar
+A. Jahanbakhsh
+23
+AZ Alkmaar
+F. Friday
+22
+AZ Alkmaar
+I. Bel Hassani
+24
+AZ Alkmaar
+W. Weghorst
+24
+AZ Alkmaar
+N. Olij
+21
+AZ Alkmaar
+D. Dos Santos
+20
+AZ Alkmaar
+P. Hatzidiakos
+20
+AZ Alkmaar
+J. Helmer
+19
+AZ Alkmaar
+L. Garc a
+19
+AZ Alkmaar
+T. Ouwejan
+21
+AZ Alkmaar
+L. Opdam
+21
+AZ Alkmaar
+G. Til
+19
+AZ Alkmaar
+O. Wijndal
+17
+AZ Alkmaar
+C. Stengs
+18
+AZ Alkmaar
+T. Reijnders
+18
+AZ Alkmaar
+T. Koopmeiners
+19
+AZ Alkmaar
+
+8. SELECT name,wage FROM `players` WHERE nationality="Brazil" and club="Manchester City"
+
+Fernandinho
+130000
+Danilo
+95000
+Danilo
+95000
+Ederson
+87000
+Gabriel Jesus
+115000
+
+9. SELECT name FROM `players` WHERE age="30" and wage<"10000"
+
+W. Johnson
+Jung In Whan
+Lee Sang Ho
+H. Jele
+M. Moralez
+Shin Kwang Hoon
+E. Reijnen
+I. Sarr
+K. Shafiei
+
+10. SELECT name,age FROM `players` WHERE nationality="Portugal" OR nationality="Spain"
+
+Iniesta
+33
+Cristiano Ronaldo
+32
+David Villa
+35
+Piqu  
+30
+Sergio Ramos
+31
+Jes s G mez
+32
+Cesc F bregas
+30
+Eduardo
+34
+David Silva
+31
+Joselu
+27
+Kiko Casilla
+30
+Juan Mata
+29
+Diego Costa
+28
+Azpilicueta
+27
+Jordi Alba
+28
+Pedro
+29
+Sergio Busquets
+28
+Parejo
+28
+Ander Herrera
+27
+Marcos Alonso
+26
+De Gea
+26
+Osmar
+29
+Montoya
+26
+Isco
+25
+Jes s Alfaro
+26
+
+11. SELECT name,age,club FROM `players` WHERE nationality="Portugal" OR club="Chelsea"
+
+Cristiano Ronaldo
+32
+Real Madrid CF
+W. Caballero
+35
+Chelsea
+Cesc F bregas
+30
+Chelsea
+Eduardo
+34
+Chelsea
+G. Cahill
+31
+Chelsea
+V. Moses
+26
+Chelsea
+Diego Costa
+28
+Chelsea
+David Luiz
+30
+Chelsea
+Willian
+28
+Chelsea
+E. Hazard
+26
+Chelsea
+Azpilicueta
+27
+Chelsea
+D. Drinkwater
+27
+Chelsea
+Pedro
+29
+Chelsea
+T. Courtois
+25
+Chelsea
+Marcos Alonso
+26
+Chelsea
+M. Dela?
+24
+Chelsea
+Morata
+24
+Chelsea
+C. Musonda
+20
+Chelsea
+Wallace Oliveira
+23
+Chelsea
+M. Batshuayi
+23
+Chelsea
+A. R diger
+24
+Chelsea
+A. Baba
+22
+Chelsea
+Andr  Gomes
+23
+FC Barcelona
+Joel Pereira
+21
+Manchester United
+A. Christensen
+21
+Chelsea
+
+12. SELECT name,club FROM `players` WHERE age>"40" and wage>"10000"
+
+13. SELECT * FROM `players` WHERE nationality="Netherlands" and club="Ajax" or club="Utrecht"
+
+14. SELECT * FROM `players` WHERE nationality="England" and age>"20" and wage>"100000"
+
+15. SELECT name,age,nationality FROM `players` WHERE nationality="Argentina" or nationality="Brazil" and age>"25"
+
